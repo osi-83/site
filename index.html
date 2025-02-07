@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <h1>OsieL Fernandes</h1>
+        <h1>Osiel Fernandes</h1>
         <nav>
             <ul>
                 <li><a href="#sobre">Sobre mim</a></li>
@@ -25,14 +25,14 @@
     <section id="sobre">
         <h2>Sobre mim:</h2>
         <img src="/Stitch01.jpg"
-            alt="Homem moreno, lindo, cabelo curto, bem baixinho, com uma menina linda no colo, em um dia ensolarado!" title="Imagem de Osiel e familia">
+            alt="personagem desenho animado, na cor azul, com orelhas grandes, conhecido por Stitch."
+            title="Imagem Stitch">
     </section>
 
     <article>
 
-        <p>Olá, Eu sou o Osiel, pai da Rebeca e esposo da Ju! <br>
-        
-            SEGUE O NOVO TEXTO!!!
+        <p>Olá, Eu sou o Osiel! <br>
+
         </p>
 
     </article>
@@ -55,28 +55,49 @@
         <article>
             <h3>Portifólio</h3>
 
-            <p>Este foi o promeiro site que desenvoli, estudando front-end
-        </p>
+            <p>Este foi o primeiro site que desenvoli, estudando front-end no programa, Joinville mais TEC!!!
+            </p>
         </article>
     </section>
 
     <footer>
         <p>Direitos reservado para Osiel</p>
 
-    <section id="contato">
-        <h2>Contatos:</h2>
-        <p> Tem um projeto em mente? Entre em contato.</p>
+        <section id="contato">
+            <h2>Contatos:</h2>
+            <p> Tem um projeto em mente? Entre em contato.</p>
 
-        <address>
-            E-mail: <a href= "mailto:osiel.fernandes.1983@gmail.com">osiel.fernandes.1983@gmail.com</a> <br>
-            Tefone: <a href="tel:+5547 9 84176619">5547984176619</a>
+            <form action="">
 
-        </address>
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" required><br>
 
-    </section>
-    
+                <label for="email">E-mail: </label>
+                <input type="email" id="E-mail" name="E-mail" required><br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" name="telefone" required><br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="orçamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outros">Outros</option>
+                </select>
+                <br>
+
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea><br>
+
+                <input type="checkbox" id="inscrição" name="inscrição">
+                <label for="inscricao">Deseja receber minha news letter? Fique por dentro.</label>
+                <br>
+
+                <input type="submit" value="Enviar mensagem">
+
+            </form>
+        </section>
     </footer>
-
 </body>
 
 </html>
